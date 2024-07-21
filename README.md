@@ -22,7 +22,7 @@
 <ul>
 <li>A website for a non-governmental organization that helps pets find their forever homes</li>
 <li>Have a cool main banner that serves a purpose (directs potential adopters to the find/search pet)</li>
-<li>This first version is much simpler/smaller; the original concept had a "Pet Quiz", search functionalities, have a profile/login, chat, etc</li>
+<li>This first version is much simpler/smaller; the original concept had a "Pet Quiz", search functionalities, user profile/login, chat, etc</li>
 </ul>
 
 <h2>Accessing the Project</h2>
