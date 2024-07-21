@@ -1,0 +1,57 @@
+.sectionBg {
+  background: url(../img/banner-help.png) center no-repeat;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 20px;
+  margin-top: 900px;
+  margin-bottom: 120px;
+}
+
+.sectionBg h2 {
+  color: var(--branco);
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  text-align: center;
+  width: 600px;
+}
+
+.sectionBg button {
+  background: var(--cinza-claro);
+  border: none;
+  border-radius: 10px;
+  padding: 16px;
+  color: var(--verde);
+  font-size: 32px;
+  width: 600px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sectionBg button:hover {
+  background: var(--cinza);
+}
+
+@media (max-width: 1000px) {
+  .sectionBg h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .sectionBg button {
+    padding: 16px 20px;
+    font-size: 24px;
+    width: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .sectionBg {
+    margin-top: 1000px;
+    margin-bottom: 60px;
+  }
+}

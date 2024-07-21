@@ -1,0 +1,166 @@
+.main {
+  background: url(/src/img/banner-adopet.png) top no-repeat,
+    linear-gradient(var(--verde-claro) 420px, var(--branco) 0);
+  width: 100%;
+  height: 640px;
+  margin-top: 100px;
+  padding-top: 240px;
+  margin-bottom: 120px;
+}
+
+.main-detail {
+  max-width: 920px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  text-align: center;
+  background: var(--cinza-claro);
+  border-radius: 10px;
+  padding: 40px 120px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.main-detail h1 {
+  color: var(--verde-escuro);
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.main-detail p {
+  color: var(--verde);
+  font-size: 32px;
+  text-align: start;
+  margin-bottom: 60px;
+}
+
+.main-detail button {
+  background: var(--verde-claro);
+  border-radius: 10px;
+  color: var(--cinza-claro);
+  font-size: 32px;
+  font-weight: bold;
+  padding: 16px 32px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.main-detail button:hover {
+  background: var(--verde);
+}
+
+.tips {
+  background: var(--branco);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1180px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+.tips-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+
+.tips-grid a {
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.tips-grid a:hover {
+  background: var(--cinza-claro);
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.tips-grid a {
+  text-decoration: none;
+}
+
+.tips-grid a:nth-child(1) {
+  grid-row: span 2;
+}
+
+.tips-grid img {
+  object-fit: contain;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.tips-grid h3 {
+  font-size: 24px;
+  color: var(--verde-escuro);
+  line-height: 28px;
+  margin: 10px 0 5px 0;
+}
+
+.tips-grid p {
+  font-size: 16px;
+  color: var(--verde);
+}
+
+@media (max-width: 1050px) {
+  .main {
+    padding: 240px 40px 0px 40px;
+    margin-bottom: 60px;
+  }
+
+  .main-detail {
+    width: 100%;
+    padding: 20px 60px 40px 60px;
+    margin-bottom: 60px;
+  }
+
+  .main-detail h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .main-detail p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .main-detail button {
+    font-size: 24px;
+    padding: 16px 32px;
+  }
+
+  .tips {
+    padding: 0;
+    margin-bottom: 60px;
+  }
+
+  .tips-grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .tips-grid img {
+    max-height: 150px;
+  }
+
+  .tips-grid img:first-child {
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-detail {
+    padding: 20px 30px 30px 30px;
+  }
+
+  .tips-grid {
+    width: 100%;
+  }
+
+  .tips-grid h3 {
+    font-size: 20px;
+  }
+}
