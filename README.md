@@ -2,7 +2,7 @@
 
 <h2>Project Description</h2>
 <p>A website for a non-governmental organization called AdoPet, that bridges the gap between pets in need and their new, loving homes.</p>
-<p>You can see the repository in action at: <a href='https://vercel.com/anasanders-projects/adopet'>AdoPetr</a>.</p>
+<p>You can see the repository in action at: <a href='https://vercel.com/anasanders-projects/adopet'>AdoPet</a>.</p>
 </br>
 
 ![adopet](https://github.com/user-attachments/assets/1e9ce1df-d42e-41dd-87a8-f78d5f56ce86)
