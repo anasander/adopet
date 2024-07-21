@@ -5,7 +5,7 @@
 <p>You can see the repository in action at: <a href='https://vercel.com/anasanders-projects/adopet'>AdoPet</a>.</p>
 </br>
 
-![adopet](https://github.com/user-attachments/assets/1e9ce1df-d42e-41dd-87a8-f78d5f56ce86)
+![adopet](https://github.com/user-attachments/assets/cbd6d50f-798d-43f3-8418-d39581783417)
 
 <h2>Project Status</h2>
 <p>Active/in developent 👩‍💻</p>
